@@ -1,8 +1,8 @@
 # Refind Tricky Transparencies Theme
 
-![Preview](preview.gif)
+This Refind boot manager theme uses transparency to vibrantly highlight and reveal a text label for only the selected icon.
 
-This theme uses transparency to vibrantly highlight and reveal a text label for only the selected icon.
+![Preview](preview.gif)
 
 ### Installation
 
@@ -27,6 +27,7 @@ Open /refindTTT/theme.conf and follow directions to edit:
 * Timeout before automatic boot
 * Selection backgrounds (set alternates to hide text label)
 
+Text color can be modified by editing selection_big.png & selection_small.png.  Paint over the bottom 50 pixels of the white square in big, the bottom 30 pixels of the white square in small.  Keep the edges transparent.
 
 ### Setting Custom Icons
 
