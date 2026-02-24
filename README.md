@@ -40,7 +40,7 @@ More extensive fixes can be done by adding a boot stanza to /boot/EFI/refind/ref
 >
 
 	menuentry " ****** " {                                      (replace ****** with OS name)
-		icon /EFI/refind/themes/RONBM/icons/******.png          (replace ****** with icon name)
+		icon /EFI/refind/themes/refindTTT/icons/******.png      (replace ****** with icon name)
 	    loader /vmlinuz-linux-******                            (replace ****** to match file name in /boot )
 	    initrd /initramfs-linux-******.img                      (replace ****** to match file name in /boot )
 	    options "quiet ******"                                  (replace "quiet ******" with boot options)
