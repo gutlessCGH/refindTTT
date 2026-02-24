@@ -4,8 +4,6 @@
 
 This theme uses transparency to vibrantly highlight and reveal a text label for only the selected icon.
 
-![Icon Preview](icons.jpg)
-
 ### Installation
 
 Copy the theme folder to a `themes` directory inside the refind EFI directory (usually `/boot/EFI/refind`)
