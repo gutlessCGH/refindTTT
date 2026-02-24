@@ -2,7 +2,7 @@
 
 This Refind boot manager theme uses transparency to vibrantly highlight and reveal a text label for only the selected icon.
 
-![Preview](preview.gif)
+![Preview](preview.webp)
 
 ### Installation
 
