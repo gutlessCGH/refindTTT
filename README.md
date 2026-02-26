@@ -29,7 +29,7 @@ Open /refindTTT/theme.conf and follow directions to edit:
 * Timeout before automatic boot
 * Selection backgrounds (set alternates to hide text label)
 
-Text color can be modified by editing selection_big.png & selection_small.png.  Paint over the bottom 50 pixels of the white square in big, the bottom 30 pixels of the white square in small.  Keep the edges transparent.
+Text color can be modified by editing selection_big.png & selection_small.png.  Paint over the bottom 50 pixels of the white square in big, the bottom 30 pixels of the white square in small.  Painting over the entire squares will also tint selected icon.  Either way keep the edges transparent.
 
 ### Setting Custom Icons
 
