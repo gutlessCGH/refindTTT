@@ -31,6 +31,8 @@ Open /refindTTT/theme.conf and follow directions to edit:
 
 Text color can be modified by editing selection_big.png & selection_small.png.  Paint over the bottom 50 pixels of the white square in big, the bottom 30 pixels of the white square in small.  Painting over the entire squares will also tint selected icon.  Either way keep the edges transparent.
 
+![Example](previewc.webp)
+
 ### Setting Custom Icons
 
 If the specific icon isn't automatically applied for a distro, the easiest solution is just to rename the correct one to os_linux.png or os_unknown.png. 
