@@ -4,6 +4,8 @@ This Refind boot manager theme uses transparency to vibrantly highlight and reve
 
 ![Preview](preview.webp)
 
+Light Version: [refindTTL](https://github.com/gutlessCGH/refindTTL)
+
 ### Installation
 
 Copy the theme folder to a `themes` directory inside the refind EFI directory (usually `/boot/EFI/refind`)
