@@ -1,9 +1,7 @@
 # Refind Tricky Transparencies Theme
 
 This Refind boot manager theme uses transparency to vibrantly highlight and reveal a text label for only the selected icon.
-
 ![Preview](preview.webp)
-
 Icons Demo (50% Scale):
 ![Icons Demo](iconsDemo.webp)
 
@@ -36,9 +34,7 @@ Open '/refindTTT/theme.conf' to edit:
 * Hidden elements (Hints, labels, arrows, and badges are hidden by default)
 
 Text color can be modified by editing selection_big.png & selection_small.png.  Paint over the bottom 50 pixels of the white square in big, the bottom 30 pixels of the white square in small.  Painting over the entire squares will also tint selected icon.  Either way keep the edges transparent.
-
 ![Example](previewc.webp)
-
 ### Setting Custom Icons
 
 If the specific icon isn't automatically applied for a distro, the easiest solution is just to rename the correct one to os_linux.png or os_unknown.png. 
