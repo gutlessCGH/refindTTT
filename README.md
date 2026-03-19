@@ -1,6 +1,6 @@
 # Refind Tricky Transparencies Theme
 
-This Refind boot manager theme uses transparency to vibrantly highlight and reveal a text label for only the selected icon.
+This rEFInd boot manager theme uses transparency to vibrantly highlight and reveal a text label for only the selected icon.
 ![Preview](preview.webp)
 Icons Demo (50% Scale):
 ![Icons Demo](iconsDemo.webp)
@@ -30,8 +30,8 @@ Open '/refindTTT/theme.conf' to edit:
 
 * Maximum number of icons shown (default 7 should fit like the preview on a 1920 pixel wide monitor)
 * Timeout before automatic boot
-* Selection backgrounds (set alternates to hide text label)
-* Hidden elements (Hints, labels, arrows, and badges are hidden by default)
+* Selection backgrounds (set alternates to hide text label for large and/or small icons)
+* Hidden elements (hints, labels, arrows, and badges are hidden by default)
 
 Text color can be modified by editing selection_big.png & selection_small.png.  Paint over the bottom 50 pixels of the white square in big, the bottom 30 pixels of the white square in small.  Painting over the entire squares will also tint selected icon.  Either way keep the edges transparent.
 ![Example](previewc.webp)
@@ -55,7 +55,9 @@ More extensive fixes can be done by adding a boot stanza to /boot/EFI/refind/ref
     
 Boot options may be found in refind_linux.conf (sudo nano /boot/refind_linux.conf).   After booting into an OS copy the long string in quotes after "Boot with standard options"
 
-Snapshot icons with the Btfrs logo and monochrome versions of popular distros are included for refind-btfrs.  To set one as a custom icon edit '/etc/refind-btfrs.conf'
+### Setting rEFInd-btfrs Custom Icon
+
+Icons with the Btfrs logo and monochrome versions of distro logos are included for refind-btfrs snapshots.  To set one as a custom icon edit '/etc/refind-btfrs.conf'
 >
 	
 	[boot-stanza-generation.icon]
