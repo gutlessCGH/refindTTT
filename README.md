@@ -6,7 +6,8 @@ rEFInd uses a background image to highlight the active icon typically with an ou
 
 Swapping icons to or from this theme will not work without modification.  In part for that reason the selection of included icons is extensive (every rEFInd tool, over 100 distros, alternate retro icons for Mac & Windows).  Monochrome icons are also included for many distros to use with refind-btfrs snapshots.
 
-Icons Demo (50% Scale):
+### Icons Demo (50% Scale):
+
 ![Icons Demo](iconsDemo.webp)
 
 ### Light Version: [refindTTL](https://github.com/gutlessCGH/refindTTL)
@@ -41,11 +42,9 @@ Text color can be modified by editing selection_big.png & selection_small.png.  
 ![Example](previewc.webp)
 ### Setting Custom Icons
 
-If the specific icon isn't automatically applied for a distro, the easiest solution is just to rename the correct one to os_linux.png or os_unknown.png. 
+If the specific icon isn't automatically applied for a distro, refer to the [rEFInd documentation](https://www.rodsbooks.com/refind/configfile.html) for the seven different ways icons can be set for auto-detected boot loaders.
 
-The partition of the install can be renamed to match the distro/icon or vice versa.
-
-More extensive fixes can be done by adding a boot stanza to /boot/EFI/refind/refind.conf
+The icon can also be set with a fixed boot stanza in /boot/EFI/refind/refind.conf
 
 **Example**
 >
