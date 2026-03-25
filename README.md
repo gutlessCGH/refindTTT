@@ -1,7 +1,11 @@
-# Refind Tricky Transparencies Theme
+# rEFInd Tricky Transparencies Theme
 
 This rEFInd boot manager theme uses transparency to vibrantly highlight and reveal a text label for only the selected icon.
 ![Preview](preview.webp)
+rEFInd uses a background image to highlight the active icon typically with an outline, underline, halo, etc.  The icons of this theme are all custom edited so that they morph when their background changes from black to white.  Each icon contains a transparent text label, and it is easy to change the color of these labels or to hide them.
+
+Swapping icons to or from this theme will not work without modification.  In part for that reason the selection of included icons is extensive (every rEFInd tool, over 100 distros, alternate retro icons for Mac & Windows).  Monochrome icons are also included for many distros to use with refind-btfrs snapshots.
+
 Icons Demo (50% Scale):
 ![Icons Demo](iconsDemo.webp)
 
