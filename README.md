@@ -2,9 +2,9 @@
 
 This rEFInd boot manager theme uses transparency to vibrantly highlight and reveal a text label for only the selected icon.
 ![Preview](preview.webp)
-rEFInd uses a background image to highlight the active icon typically with an outline, underline, halo, etc.  The icons of this theme are all custom edited so that they morph when their background changes from black to white.  Each icon contains a transparent text label, and it is easy to change the color of these labels or to hide them.
+rEFInd uses a background image to highlight the active icon typically with an outline, underline, halo, etc.  The icons of this theme are all custom edited so that they morph when a simple white background is put behind them.  Each icon contains a transparent text label, and it is easy to change the color of these labels or to hide them.
 
-Swapping icons to or from this theme will not work without modification.  In part for that reason the selection of included icons is extensive (every rEFInd tool, over 100 distros, alternate retro icons for Mac & Windows).  Monochrome icons are also included for many distros to use with refind-btfrs snapshots.
+Swapping icons to or from this theme will not work without modification.  In part for that reason the selection of included icons is extensive (every rEFInd function & tool, over 100 distros, alternate retro icons for Mac & Windows).  Monochrome icons are also included for many distros to use with refind-btfrs snapshots.
 
 ### Icons Demo (50% Scale):
 
@@ -36,7 +36,7 @@ Open '/refindTTT/theme.conf' to edit:
 * Maximum number of icons shown (default 7 should fit like the preview on a 1920 pixel wide monitor)
 * Timeout before automatic boot
 * Selection backgrounds (set alternates to hide text label for large and/or small icons)
-* Hidden elements (hints, labels, arrows, and badges are hidden by default)
+* Hidden elements (hints, labels, arrows, and badges are hidden by default but will work if enabled)
 
 Text color can be modified by editing selection_big.png & selection_small.png.  Paint over the bottom 50 pixels of the white square in big, the bottom 30 pixels of the white square in small.  Painting over the entire squares will also tint selected icon.  Either way keep the edges transparent.
 ![Example](previewc.webp)
