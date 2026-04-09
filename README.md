@@ -23,7 +23,7 @@ Copy the theme folder to a `themes` directory inside the refind EFI directory (u
 	sudo mkdir /boot/EFI/refind/themes                            (ignore command or error if directory exists)
 	sudo cp -r ./refindTTT /boot/EFI/refind/themes/refindTTT	  (right click to open terminal in downloads folder)
 
-Then add `include themes/refindTTT/theme.conf` at the end of /boot/EFI/refind/refind.conf
+Then add `include themes/refindTTT/theme.conf` at the end of '/boot/EFI/refind/refind.conf'
 >
 
 	sudo nano /boot/EFI/refind/refind.conf                    (ctrl+u to paste, ctrl+s to save, ctrl+x to exit)
@@ -31,7 +31,7 @@ Then add `include themes/refindTTT/theme.conf` at the end of /boot/EFI/refind/re
 
 ### Customization
 
-To use a smaller, 2/3 scale icon set change `include themes/refindTTT/theme.conf` in /boot/EFI/refind/refind.conf to "include themes/refindTTT/theme176.conf"
+To use a smaller, 2/3 scale icon set change 'include themes/refindTTT/theme.conf' in '/boot/EFI/refind/refind.conf' to 'include themes/refindTTT/theme176.conf'
 
 Open '/refindTTT/theme.conf' to edit:
 
@@ -46,7 +46,7 @@ Text color can be modified by editing selection_big.png & selection_small.png.  
 
 If the specific icon isn't automatically applied for a distro, refer to the [rEFInd documentation](https://www.rodsbooks.com/refind/configfile.html) for the seven different ways icons can be set for auto-detected boot loaders.
 
-The icon can also be set with a fixed boot stanza in /boot/EFI/refind/refind.conf
+The icon can also be set with a fixed boot stanza in '/boot/EFI/refind/refind.conf'
 
 **Example**
 >
@@ -58,7 +58,7 @@ The icon can also be set with a fixed boot stanza in /boot/EFI/refind/refind.con
 	    options "quiet ******"                                  (replace "quiet ******" with boot options)
 	    }
     
-Boot options may be found in refind_linux.conf (sudo nano /boot/refind_linux.conf).   After booting into an OS copy the long string in quotes after "Boot with standard options"
+Boot options may be found in refind_linux.conf ('sudo nano /boot/refind_linux.conf').   After booting into an OS copy the long string in quotes after 'Boot with standard options'
 
 ### Setting rEFInd-btfrs Custom Icon
 
