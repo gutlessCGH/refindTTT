@@ -33,6 +33,8 @@ Then add `include themes/refindTTT/theme.conf` at the end of '/boot/EFI/refind/r
 
 To use a smaller, 2/3 scale icon set change 'include themes/refindTTT/theme.conf' in '/boot/EFI/refind/refind.conf' to 'include themes/refindTTT/theme176.conf'
 
+Alternate icons are included for macOS, Windows, and most rEFInd functions & tools.  Setting an alternate icon simply requires swapping icon names.
+
 Open '/refindTTT/theme.conf' to edit:
 
 * Maximum number of icons shown (default 7 should fit like the preview on a 1920 pixel wide monitor)
