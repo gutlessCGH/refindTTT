@@ -39,11 +39,13 @@ Open '/refindTTT/theme.conf' to edit:
 
 * Maximum number of icons on screen
 * Timeout before automatic boot
-* Selection backgrounds (set alternates to hide text label for large and/or small icons)
+* Selection backgrounds (set alternates to hide text labels or to use color labels)
 * Hidden elements (hints, labels, arrows, and badges are hidden by default but will work if enabled)
 
-Text color can be modified by editing selection_big.png & selection_small.png.  Paint over the bottom 50 pixels of the white square in big, the bottom 30 pixels of the white square in small.  Painting over the entire squares will also tint selected icon.  Either way keep the edges transparent.
+There are selection backgrounds for blue, purple, red, teal, or purple labels.  Text can be changed to any color by modifying the selection_big_...png & selection_small_...png files.  Paint over the bottom 50 pixels of the center square in big, the bottom 30 pixels in small.  Painting over the entire squares will also tint selected icon (not very effective for large icons, but will make small function icons all light up in color).  Either way keep the edges transparent.
+
 ![Example](previewc.webp)
+
 ### Setting Custom Icons
 
 If the specific icon isn't automatically applied for a distro, refer to the [rEFInd documentation](https://www.rodsbooks.com/refind/configfile.html) for the seven different ways icons can be set for auto-detected boot loaders.
