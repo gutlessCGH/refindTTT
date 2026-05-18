@@ -4,7 +4,7 @@ This rEFInd boot manager theme uses transparency to vibrantly highlight and reve
 ![Preview](preview.webp)
 rEFInd uses a background image to highlight the active icon typically with an outline, underline, halo, etc.  The icons of this theme are all custom edited so that they morph when a simple white background is put behind them.  Each icon contains a transparent text label, and it is easy to change the color of these labels or to hide them.
 
-Swapping icons to or from this theme will not work without modification.  In part for that reason the selection of included icons is extensive (every rEFInd function & tool, over 100 distros, alternate retro icons for Mac & Windows).  Monochrome icons are also included for many distros to use with refind-btfrs snapshots.
+Swapping icons to or from this theme will not work without modification.  In part for that reason the selection of included icons is extensive (every rEFInd function & tool, over 150 distros, alternate retro icons for Mac & Windows).  Monochrome icons are also included for many distros to use with refind-btrfs snapshots.
 
 ### Icons Demo (50% Scale):
 
@@ -64,11 +64,11 @@ The icon can also be set with a fixed boot stanza in '/boot/EFI/refind/refind.co
     
 Boot options may be found in refind_linux.conf ('sudo nano /boot/refind_linux.conf').   After booting into an OS copy the long string in quotes after 'Boot with standard options'
 
-### Setting rEFInd-btfrs Custom Icon
+### Setting rEFInd-btrfs Custom Icon
 
-Icons with the Btfrs logo and monochrome versions of distro logos are included for refind-btfrs snapshots.  To set one as a custom icon edit '/etc/refind-btfrs.conf'
+Icons with the Btrfs logo and monochrome versions of distro logos are included for refind-btfrs snapshots.  To set one as a custom icon edit '/etc/refind-btrfs.conf'
 >
 	
 	[boot-stanza-generation.icon]
 	mode = "custom" 
-	path = "themes/refindTTT/icons/btfrs.png"
+	path = "themes/refindTTT/icons/btrfs.png"
