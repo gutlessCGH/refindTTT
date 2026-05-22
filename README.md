@@ -6,7 +6,7 @@ rEFInd uses a background image to highlight the active icon typically with an ou
 
 Swapping icons to or from this theme will not work without modification.  In part for that reason the selection of included icons is extensive (every rEFInd function & tool, over 200 distros, alternate retro icons for Mac & Windows).  Monochrome icons are also included for many distros to use with refind-btrfs snapshots.
 
-### Icons Demo (50% Scale, shows 126 of the 293 large icons):
+### Icons Demo (50% Scale, shows 126 of the 299 large icons):
 
 ![Icons Demo](iconsDemo.webp)
 
