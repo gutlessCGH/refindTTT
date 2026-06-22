@@ -4,9 +4,9 @@ This rEFInd boot manager theme uses transparency to vibrantly highlight and reve
 ![Preview](preview.webp)
 rEFInd uses a background image to highlight the active icon typically with an outline, underline, halo, etc.  The icons of this theme are all custom edited so that they morph when a simple white background is put behind them.  Each icon contains a transparent text label, and it is easy to change the color of these labels or to hide them.
 
-Swapping icons to or from this theme will not work without modification.  In part for that reason the selection of included icons is extensive (every rEFInd function & tool, over 200 distros, alternate retro icons for Mac & Windows).  Monochrome icons are also included for many distros to use with refind-btrfs snapshots.
+Swapping icons to or from this theme will not work without modification.  In part for that reason the selection of included icons is extensive (every rEFInd function & tool, over 250 distros, alternate retro icons for Mac & Windows).  Monochrome icons are also included for many distros to use with refind-btrfs snapshots.
 
-### Icons Demo (50% Scale, shows 126 of the 325 large icons):
+### Icons Demo (50% Scale, shows 126 of the 349 large icons):
 
 ![Icons Demo](iconsDemo.webp)
 
