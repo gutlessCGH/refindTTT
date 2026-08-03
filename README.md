@@ -12,8 +12,6 @@ Swapping icons to or from this theme will not work without modification.  In par
 
 ### Light Version: [refindTTL](https://github.com/gutlessCGH/refindTTL)
 
-![refindTTL Preview](previewTTL.webp)
-
 ### Installation
 
 Copy the theme folder to a `themes` directory inside the refind EFI directory (usually `/boot/EFI/refind`)
